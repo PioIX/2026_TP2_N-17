@@ -1,0 +1,18 @@
+  .marcas {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	gap: 16px;
+	padding: 20px;
+	height: auto;
+}
+
+.marcas img {
+	width: 15%;
+	height: auto;
+	object-fit: contain;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	background-color: #fff;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
