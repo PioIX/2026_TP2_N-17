@@ -1,18 +1,25 @@
-  .marcas {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-	gap: 16px;
-	padding: 20px;
-	height: auto;
+.marcas {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+	gap: 24px;
+	padding: 24px;
+	align-items: center;
+	justify-items: center;
 }
 
 .marcas img {
-	width: 15%;
-	height: auto;
+	width: 100%;
+	height: 160px;
 	object-fit: contain;
+	object-position: center;
 	border: 1px solid #ccc;
 	border-radius: 8px;
 	background-color: #fff;
 	box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+	max-width: 300px;
+	display: block;
+	padding: 14px;
+	box-sizing: border-box;
+	gap: 16px;
 }
+
