@@ -44,3 +44,81 @@
 	max-width: 180px;
 }
 
+
+#reseñas-clientes {
+	padding: 32px 24px;
+	max-width: 1000px;
+	margin: 0 auto 48px;
+}
+
+#reseñas-clientes h1 {
+	font-size: 2rem;
+	margin: 0 0 8px;
+	color: #222;
+	text-align: center;
+}
+
+#reseñas-clientes .intro {
+	text-align: center;
+	color: #555;
+	margin-bottom: 24px;
+}
+
+#reseñas-clientes .intro a {
+	color: #0056d6;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+#reseñas-clientes .intro a:hover {
+	text-decoration: underline;
+}
+
+.reviews {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+}
+
+.review {
+	background: #ffffff;
+	border: 1px solid #e6e6e6;
+	padding: 18px;
+	border-radius: 10px;
+	box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+}
+
+.review h3 {
+	margin: 0 0 6px;
+	font-size: 1.1rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 10px;
+}
+
+.review time {
+	display: block;
+	font-size: 0.9rem;
+	color: #888;
+	margin-bottom: 8px;
+}
+
+.review p {
+	margin: 0;
+	color: #333;
+	line-height: 1.45;
+}
+
+.rating {
+	color: #f2b01e; 
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+@media (max-width: 700px) {
+	.reviews {
+		grid-template-columns: 1fr;
+	}
+}
+
