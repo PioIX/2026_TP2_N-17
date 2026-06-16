@@ -1,37 +1,57 @@
-# Yerbas: Tradición, Cultura y Naturaleza
+# 🧉 Club Yerba
 
-Bienvenido a **Yerbas**, un sitio dedicado a descubrir el fascinante mundo de las plantas utilizadas en infusiones, remedios naturales y tradiciones culturales de distintas regiones.
-
-Nuestro objetivo es acercar información clara y accesible sobre las diferentes variedades de yerbas, sus características, su historia y las formas en que han acompañado a las personas a lo largo de generaciones.
+> Tu destino online para descubrir y comprar las mejores yerbas del mercado argentino.
 
 ---
 
-## ¿Qué encontrarás en esta página?
+## ¿Qué es Club Yerba?
 
-En Yerbas podrás explorar contenido relacionado con:
+**Club Yerba** nació en 2021 en el Gran Buenos Aires, cuando un grupo de amigos mateadores se dio cuenta de que encontrar una buena yerba a precio justo era más difícil de lo que debería ser. Hartos de ir de almacén en almacén sin saber qué estaban comprando, decidieron armar su propio espacio: un lugar donde cualquier persona pueda conocer, comparar y elegir su yerba ideal sin complicaciones.
 
-- Distintas especies de yerbas y sus características.
-- La historia y el origen de las infusiones más populares.
-- Tradiciones y costumbres asociadas al consumo de yerbas en diferentes países.
-- Propiedades y beneficios atribuidos a cada planta.
-- Datos curiosos y conocimientos transmitidos por diversas culturas.
+Lo que arrancó como un emprendimiento familiar de garage hoy cuenta con más de 15 marcas seleccionadas a mano, tanto despaladas como con palo, pensadas para satisfacer todos los paladares — desde el que recién empieza a matear hasta el que no arranca el día sin su cuarto litro.
 
 ---
 
-## La importancia de las yerbas
+## 🛒 Productos disponibles
 
-Desde tiempos antiguos, las yerbas han formado parte de la vida cotidiana de muchas sociedades. Han sido utilizadas en rituales, como remedios caseros, en la gastronomía y como una forma de compartir momentos entre amigos y familiares.
+### Yerbas Despaladas
+
+| Marca | Precio |
+|---|---|
+| Baldo | $6.500 |
+| Rei Verde | $3.500 |
+| Rei Verde Premium | $4.600 |
+| Verdecita | $2.400 |
+| Sara | $2.800 |
+| Canarias | $8.000 |
+| Canarias Serena | $8.600 |
+| Canarias Edición Especial | $10.000 |
+| Canarias Té Verde y Jengibre | $8.000 |
+| Canarias Té Rojo y Centella | $8.000 |
+
+### Yerbas con Palo
+
+| Marca | Precio |
+|---|---|
+| Playadito | $4.500 |
+| Rosamonte | $3.750 |
+| Liebig | $2.000 |
+| Taragüí | $4.500 |
+| La Merced | $3.500 |
+| Aguantadora | $3.000 |
+| Cruz de Malta | $2.500 |
 
 ---
 
-## Nuestra misión
+## 📄 Páginas del sitio
 
-Buscamos promover el conocimiento y la valoración de las plantas que forman parte del patrimonio natural y cultural de distintas regiones. A través de información educativa y contenido visual, invitamos a los visitantes a conocer más sobre el origen, los usos y la importancia de las yerbas en la vida cotidiana.
+| Página | Descripción |
+|---|---|
+| `index.html` | Inicio — presentación y marcas disponibles |
+| `productos.html` | Catálogo completo con fotos y precios |
+| `contacto.html` | Formulario para consultas y pedidos |
+| `reseñas.html` | Opiniones de clientes reales |
 
 ---
 
-## Explora y aprende
-
-Cada yerba tiene una historia única. Te invitamos a recorrer el sitio, descubrir nuevas especies y conocer cómo estas plantas han dejado su huella en la cultura y las costumbres de diferentes pueblos alrededor del mundo.
-
-Conocer las yerbas es también conocer una parte de nuestra historia y nuestra relación con la naturaleza.
+*Club Yerba — Yerbas para todos los gustos al mejor precio* 🧉
