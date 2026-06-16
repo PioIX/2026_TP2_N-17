@@ -1,0 +1,331 @@
+.marcas {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+	gap: 24px;
+	padding: 24px;
+	align-items: center;
+	justify-items: center;
+}
+
+.marcas figure {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 8px;
+}
+
+.marcas img {
+	width: 100%;
+	height: 160px;
+	object-fit: contain;
+	object-position: center;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	background-color: #fff;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+	max-width: 300px;
+	display: block;
+	padding: 14px;
+	box-sizing: border-box;
+}
+.marcas img:hover {
+	border-color: #ff00ff;
+	box-shadow: 4px 4px 10px rgba(0,123,255,0.2);
+	transform: translateY(-2px);
+	transition: all 0.3s ease;
+}
+
+
+.marcas figcaption {
+	font-size: 12px;
+	text-align: center;
+	color: #666;
+	max-width: 180px;
+}
+
+/* Estilos globales: fondo de página y tipografía base */
+:root{
+	--page-bg: #f5f7fb; /* fondo suave */
+	--surface: #ffffff;
+	--text: #222;
+	--muted: #666;
+	--accent: #0056d6;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	background: linear-gradient(180deg, #eaffff 0%, #f4f4ff 55%, #ffffff 100%);
+	color: var(--text);
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	line-height: 1.5;
+}
+
+main {
+	max-width: 1100px;
+	margin: 24px auto;
+	padding: 0 20px;
+}
+
+.contact-page {
+	max-width: 900px;
+	margin: 36px auto 48px;
+	padding: 0 20px;
+}
+
+.contact-hero {
+	text-align: center;
+	padding: 32px 18px 16px;
+}
+
+.contact-hero h1 {
+	margin: 0 0 12px;
+	font-size: clamp(2rem, 3vw, 3rem);
+	
+}
+
+.contact-hero p {
+	margin: 0 auto;
+	max-width: 720px;
+	color: #44556d;
+	font-size: 1rem;
+}
+
+.contact-card {
+	background: rgba(255, 255, 255, 0.96);
+	border: 1px solid rgba(4, 78, 145, 0.08);
+	border-radius: 28px;
+	box-shadow: 0 24px 70px rgba(17, 54, 92, 0.08);
+	padding: 32px;
+}
+
+.contact-card form {
+	display: grid;
+	gap: 20px;
+}
+
+.contact-card label {
+	display: grid;
+	gap: 10px;
+	font-weight: 600;
+	color: #24354b;
+}
+
+.contact-card input,
+.contact-card textarea {
+	width: 100%;
+	padding: 14px 16px;
+	border: 1px solid #d7dee9;
+	border-radius: 16px;
+	background: #f8fbff;
+	color: #1c2633;
+	font: inherit;
+	transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contact-card input:focus,
+.contact-card textarea:focus {
+	outline: none;
+	border-color: var(--accent);
+	box-shadow: 0 0 0 4px rgba(0, 86, 214, 0.12);
+}
+
+.contact-card textarea {
+	min-height: 160px;
+	resize: vertical;
+}
+
+.contact-card button {
+	width: max-content;
+	padding: 14px 32px;
+	border: none;
+	border-radius: 999px;
+	background: var(--accent);
+	color: #fff;
+	font-weight: 700;
+	cursor: pointer;
+	box-shadow: 0 16px 28px rgba(0, 86, 214, 0.18);
+	transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.contact-card button:hover,
+.contact-card button:focus {
+	transform: translateY(-1px);
+	background: #003d8f;
+	box-shadow: 0 20px 32px rgba(0, 86, 214, 0.24);
+}
+
+footer {
+	max-width: 1100px;
+	margin: 36px auto;
+	padding: 0 20px 40px;
+	color: var(--muted);
+	text-align: center;
+}
+
+
+#reseñas-clientes {
+	padding: 32px 24px;
+	max-width: 1000px;
+	margin: 0 auto 48px;
+}
+
+#reseñas-clientes h1 {
+	font-size: 2rem;
+	margin: 0 0 8px;
+	color: #222;
+	text-align: center;
+}
+
+#reseñas-clientes .intro {
+	text-align: center;
+	color: #555;
+	margin-bottom: 24px;
+}
+
+#reseñas-clientes .intro a {
+	color: #0056d6;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+#reseñas-clientes .intro a:hover {
+	text-decoration: underline;
+}
+
+.reviews {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+}
+
+.review {
+	background: #ffffff;
+	border: 1px solid #e6e6e6;
+	padding: 18px;
+	border-radius: 10px;
+	box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+}
+
+.review h3 {
+	margin: 0 0 6px;
+	font-size: 1.1rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 10px;
+}
+
+.review time {
+	display: block;
+	font-size: 0.9rem;
+	color: #888;
+	margin-bottom: 8px;
+}
+
+.review p {
+	margin: 0;
+	color: #333;
+	line-height: 1.45;
+}
+
+.rating {
+	color: #f2b01e; 
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+/* Header y navegación global */
+header {
+	background: #ffffff;
+	border-bottom: 1px solid #ececec;
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.02);
+}
+
+header > nav {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 12px 20px;
+}
+
+header nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	gap: 18px;
+	align-items: center;
+	justify-content: center;
+}
+
+header nav li {
+	margin: 0;
+}
+
+header nav a {
+	display: inline-block;
+	padding: 10px 14px;
+	color: #222;
+	text-decoration: none;
+	border-radius: 8px;
+	font-weight: 600;
+	transition: background 0.18s ease, color 0.18s ease, transform 0.08s ease;
+}
+
+header nav a:hover,
+header nav a:focus {
+	background: #f0f6ff;
+	color: #0056d6;
+	outline: none;
+}
+
+header nav a:active {
+	transform: translateY(1px);
+}
+
+/* Destacar el enlace activo si se añade la clase "active" desde el HTML */
+header nav a.active,
+header nav a[aria-current="page"] {
+	background: #0056d6;
+	color: #fff;
+	box-shadow: 0 4px 12px rgba(0,86,214,0.12);
+}
+
+/* Ajustes móviles: apilar y aumentar áreas táctiles */
+@media (max-width: 700px) {
+	header > nav {
+		padding: 10px 14px;
+	}
+	header nav ul {
+		flex-direction: column;
+		gap: 8px;
+	}
+	header nav a {
+		width: 100%;
+		text-align: center;
+		padding: 12px 16px;
+	}
+}
+
+/* Pequeñas utilidades para accesibilidad */
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0,0,0,0);
+	white-space: nowrap;
+	border: 0;
+}
+
